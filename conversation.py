@@ -1,6 +1,5 @@
 import speech_recognition as sr
 import pyttsx
-import cv2
 import msvcrt
 
 
@@ -31,9 +30,6 @@ def listen():
 		print("Recog Error; {0}".format(e))
 	return ""
 
-
-
-#commands = [("crop", "cropping", "cropped", "crops"), ("emphasize, emphasizes, emphasizing, emphasized, emphasis"), ("action", "actions"), ("label", "labels", "labelling", "annotate", "annotates", "annotating")]
 
 def emphasizeImage():
     speak("emphasize which area?")
